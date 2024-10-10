@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 20px; */
+    margin: 20px 60px;
+}
+
+.link {
+    display: flex;
+    height: 20px;
+    width: 30px;
+    padding-left: 100px;
+    margin-right: 60px;
+
+    gap: 30px;
+    color: rgb(36, 36, 168);
+}
+.header h1 span{
+    color: brown;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 30px;
+    color: rgb(92, 92, 198);
+}
+
+.foteer {
+color: white;
+    text-align: center;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    
+    
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://www.centreforsight.net/wp-content/uploads/2023/04/optometristsvsophthalmologists.png")
+
+    
+}
+.foteer h1 {
+    /* padding-left: 300px; */
+    margin-left: 500px;
+    margin-top: 100px;
+    color: rgb(53, 53, 195);
+}
+.foteer button {
+    margin-left: 500px;
+    margin-top: 20px;
+    background-color: rgb(55, 55, 154);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.text {
+    display: flex;
+
+}
+.text img {
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text p {
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.kor {
+        margin-top: 50px;
+    margin-left: 50px;
+}
+.kor h1{
+
+}
+
+
+.ayaga {
+    display: flex;
+
+}
+.left {
+    margin-left: 30px;
+}
+
+.left button {
+    color:white;
+    background-color: rgb(56, 194, 194);
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.gallery {
+
+ 
+    background-color: aquamarine;  
+    height: 550px;
+    height: 600px;
+  
+}
+.gallery h1 span{
+    color: blue;
+}
+.gallery h1 {
+    padding-top: 20px;
+    padding-left: 500px;
+    color: rgb(232, 220, 220);
+
+
+}
+
+.sawir {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px 20ppx; */
+    padding-left: 100px;
+    gap: 40px;
+    padding-top: 50px;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+    padding-left: 100px;
+    gap: 40px;
+    padding-top: 50px;
+
+    
+
+}
+
+.kow {
+    height: 200px;
+    width: 300px;
+}
+
+.our-service {
+    background-color: rgb(32, 237, 169);
+    height: 400px;
+}
+
+.service2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service3 {
+    display: flex;
+    gap: 30px;
+
+    
+}
+
+.service {
+    margin-top: 50px;
+    margin-left: 20px ;
+    margin-right: 20px;
+    background-color: rgb(32, 237, 169);
+    height: 250px;
+    width: 300px;
+    box-shadow: 0px 4px 5px gray;
+    /* border: 4px rgb(98, 152, 139) solid; */
+}
+
+.service img {
+    min-height: 70px;
+    width: 70px;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+
+.service h1 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.service p {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.qooral {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.team-parent {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.team-parent h1 {
+    font-size: 16px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.team-parent p {
+    font-size: 16px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+
+.team-parent img {
+    padding-left: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+
+.our-team {
+    background-color: white;
+    height: 500px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hoos {
+    background-color: rgb(58, 46, 46);
+    height: 300px;
+}
+
+.contact { 
+    display: flex;
+    height: 50px;
+    width: 500px;
+    padding-top: 40px;
+    margin-left: 250px;
+    gap: 70px;
+}
+
+.contact1 {
+    display: flex;
+    height: 30px;
+    width: 500px;
+    padding-top: 40px;
+    margin-left: 250px;
+    gap: 20px;
+    
+
+}
+
+.contact1 button {
+    background-color: rgb(63, 63, 126);
+    color: white;
+}
+
+.location {
+    display: flex;
+    height: 60px;
+    width: 500px;
+    padding-top: 20px;
+    margin-left: 250px;
+    gap: 20px;
+}
+
+.location p {
+    height: 20px;
+    font-size: 20px;
+}
